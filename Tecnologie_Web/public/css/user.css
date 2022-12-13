@@ -1,0 +1,55 @@
+.input-group {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blog-post{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    height: content-box;
+}
+
+.blog-container {
+    background-color: #cecece;
+}
+
+.contenitoremod {
+    padding: 30px;
+}
+
+.modifica {
+    height: auto;
+    background-color: #cecece;
+}
+
+.username h2{
+    font-family: 'Roboto Slab', serif;
+}
+
+#bottone {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#contenitorepassw {
+    font-family: 'Roboto Slab' , serif;
+    padding: 30px;
+    background-color: #cecece;
+}
+
+.modificapassword {
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 20px;
+    height: content-box;
+    width: 43%;
+    background-color: #ffffff;
+}
+
+.modificapassword p {
+    font-size: 25px;
+}
+

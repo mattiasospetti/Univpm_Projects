@@ -1,0 +1,27 @@
+.contenitore img {
+    border-image: round;
+}
+
+.testo {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#listalogo {
+    background-clip: padding-box;
+    align-content: center;
+    text-align: center;
+}
+#listalogo li {
+    text-align: center;
+    display:inline-block;
+    margin: auto;
+    padding: auto;
+}
+#listalogo li a {
+    margin: 0 0 0 0;
+    padding: 1.5em 1em 1.5em 1em;
+}
+#listalogo li a:hover{
+    
+}

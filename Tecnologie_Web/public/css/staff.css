@@ -1,0 +1,164 @@
+.staff {
+    text-align: center;
+    font-family: 'Roboto Slab' , serif;
+}
+
+.staff h3{
+    color: #ff0000;
+}
+
+.contforminsprodotto {
+    font-family: 'Roboto Slab' , serif;
+    padding: 30px;
+    background-color: #cecece;
+}
+
+.forminsprodotto {
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 20px;
+    height: content-box;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.bottoneins {
+    text-align: center;
+}
+
+.boxdesclong {
+    text-align: center;
+}
+
+.listaprodstaff {
+   height: auto;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-family: 'Roboto Slab' , serif;
+   background-color: #cecece;
+}
+.listaprodotti {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.listaprodotti td {
+    padding: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.imagecontainermodfica {
+    position: relative;
+    background: none;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imagecontainermodfica img{
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100px;
+    max-width: 100px;
+    height:auto;
+    width: auto;
+}
+
+.nomeelenco {
+    margin: auto auto;
+}
+
+.bottonicol {
+    
+}
+
+.bottoni div{
+    float: left;
+    clear: none;
+    padding: 5px;
+}
+
+#modifica {
+    border-radius: 5px 5px 5px 5px;
+    border: solid #54C571;
+    background-color:#57E964;
+    color:white;
+    cursor: pointer;
+}
+#modifica:active{
+    background: green;
+    color: white;
+}
+#elimina {
+    border-radius: 5px 5px 5px 5px;
+    border: solid #f62217;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#elimina:active{
+    background: #E42217;
+    color: white;
+}
+
+.contmodificaprodotto {
+    font-family: 'Roboto Slab' , serif;
+    padding: 30px;
+    background-color: #cecece;
+}
+.modificaprodotto {
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 20px;
+    height: content-box;
+    width: 50%;
+    background-color: #ffffff;
+}
+.immaginemod{
+}
+.immaginemod img{
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.paginazionestaff {
+    color: #000000;
+    margin-top: 20px;
+}
+
+.contforminsprodotto {
+    height: auto;
+    font-family: 'Roboto Slab' , serif;
+    padding: 30px;
+    background-color: #cecece;
+}
+
+.errors {
+    color: red;
+        font-size: 12px;
+        font-style: italic;
+}
+
+ 
+
+.errors ul {
+    line-height: 100%;
+}
+
+ul.errors {
+    list-style-type: none;
+    float: right;
+}
+
