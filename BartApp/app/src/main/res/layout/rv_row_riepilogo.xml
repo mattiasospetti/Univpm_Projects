@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_marginStart="7dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/testo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stai scambiando il tuo oggetto : "
+            android:textSize="15dp"
+            android:textColor="#F62817"/>
+
+        <TextView
+            android:id="@+id/oggetto_mio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testo"
+            android:textColor="#F62817"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/testo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/oggetto_mio"
+            android:textColor="#4CC552"
+            android:text="Con l'oggetto: "
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/nome_oggetto_vend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testo1"
+            android:textColor="#4CC552"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Di: "
+            android:layout_below="@+id/nome_oggetto_vend"
+            android:id="@id/testo2"
+            android:textColor="#4CC552"/>
+
+        <TextView
+            android:id="@+id/nome_venditore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_oggetto_vend"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/testo2"
+            android:textColor="#4CC552"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/testo3"
+            android:text="Email: "
+            android:textSize="15dp"
+            android:layout_below="@id/testo2"
+            android:textColor="#4CC552"/>
+
+        <TextView
+            android:id="@+id/email_venditore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testo2"
+            android:layout_toRightOf="@id/testo3"
+            android:textColor="#4CC552"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/btn_elimina"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cestino"
+            android:backgroundTint="@android:color/white"
+            android:text="Elimina"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contatta"
+            android:text="Contatta"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@id/email_venditore"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email2"
+            android:textSize="15dp"
+            android:textColor="#4CC552"
+            android:layout_marginTop="5dp"/>
+        
+        <TextView
+            android:id="@+id/testo5"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ha accettato la tua offerta: "
+            android:layout_below="@id/email2"
+            android:textColor="#4CC552"
+            android:textSize="15dp"/>
+        
+        <TextView
+            android:id="@+id/nome_oggetto_proposto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/testo5"
+            android:textColor="#F62817"/>
+
+        <TextView
+            android:id="@+id/nome_oggetto_richiesto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_oggetto_proposto"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#4CC552"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_contatta"
+            android:text="Contatta"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@id/nome_oggetto_richiesto"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

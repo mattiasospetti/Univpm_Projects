@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginStart="7dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="?attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/testo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oggetto proposto: "
+            android:textColor="#4CC552"/>
+
+        <ImageView
+           android:layout_below="@+id/testo1"
+            android:id="@+id/immagine_oggetto"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/nome_oggetto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_toEndOf="@id/immagine_oggetto"
+            android:textColor="#4CC552"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nome_venditore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_oggetto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@id/immagine_oggetto"
+            android:textColor="#4CC552"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/prezzo_stringa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_venditore"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/immagine_oggetto"
+            android:text="Prezzo: "
+            android:textColor="#4CC552"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/prezzo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_venditore"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prezzo_stringa"
+            android:textColor="#4CC552"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:background="?attr/selectableItemBackground">
+        <TextView
+            android:id="@+id/testo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oggetto richiesto: "
+            android:textColor="#F62817"/>
+
+        <ImageView
+            android:layout_below="@id/testo2"
+            android:id="@+id/immagine_mio_oggetto"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/nome_oggetto_vend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_toEndOf="@id/immagine_mio_oggetto"
+            android:textColor="#F62817"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nome_mio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_oggetto_vend"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@id/immagine_mio_oggetto"
+            android:textColor="#F62817"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/prezzo_stringa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_mio"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@id/immagine_mio_oggetto"
+            android:text="Prezzo: "
+            android:textColor="#F62817"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/prezzo_mio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nome_mio"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/prezzo_stringa2"
+            android:textColor="#F62817"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_accetta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:textColor="#4CC552"
+            android:text="Accetta"/>
+
+        <Button
+            android:id="@+id/btn_rifiuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rifiuta"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

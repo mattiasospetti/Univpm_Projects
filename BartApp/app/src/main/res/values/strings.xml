@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BartApp</string>
+    <string name="Registrati">Registrati</string>
+    <string name="nome">Inserisci Nome</string>
+    <string name="cognome">Inserisci Cognome</string>
+    <string name="email">Inserisci Email</string>
+    <string name="password">Inserisci Password</string>
+    <string name="inforequired">Per favore, inserisci tutti i dati</string>
+    <string name="errorsignup">C\' è stato un errore in fase di registrazione</string>
+    <string name="Benvenuto">Benvenuto</string>
+    <string name="selSorgente">Seleziona la sorgente</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="selsorgente">Seleziona la sorgente</string>
+    <string name="search">Search</string>
+</resources>
